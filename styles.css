@@ -101,6 +101,13 @@ body {
 .chart-wrap { position: relative; padding: 8px; }
 #chart svg { display: block; width: 100%; height: auto; }
 
+/* Mobile: the chart is unreadable squeezed to a phone's width, so make it as tall as the
+   screen and let it overflow horizontally (swipe left/right to pan). Desktop is unchanged. */
+@media (max-width: 700px) {
+  #chart { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  #chart svg { width: auto; height: 82vh; max-width: none; }
+}
+
 .legend {
   display: flex;
   flex-wrap: wrap;
