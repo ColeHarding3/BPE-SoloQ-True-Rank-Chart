@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T20:16:14.701Z",
+  "updatedAt": "2026-07-13T20:26:07.235Z",
   "region": "na",
   "source": "op.gg",
   "players": [
@@ -144,8 +144,8 @@
           "tier": "EMERALD",
           "division": 4,
           "lp": 30,
-          "games": 24,
-          "wins": 3
+          "games": 8,
+          "wins": 1
         },
         {
           "order": 16,
@@ -291,8 +291,8 @@
           "tier": "DIAMOND",
           "division": 3,
           "lp": 47,
-          "games": 368,
-          "wins": 166
+          "games": 248,
+          "wins": 116
         },
         {
           "order": 15,
@@ -301,8 +301,8 @@
           "tier": "DIAMOND",
           "division": 4,
           "lp": 41,
-          "games": 456,
-          "wins": 243
+          "games": 152,
+          "wins": 81
         },
         {
           "order": 16,
@@ -368,8 +368,8 @@
           "tier": "DIAMOND",
           "division": 3,
           "lp": 4,
-          "games": 999,
-          "wins": 491
+          "games": 613,
+          "wins": 307
         },
         {
           "order": 15,
@@ -378,8 +378,8 @@
           "tier": "DIAMOND",
           "division": 3,
           "lp": 21,
-          "games": 1227,
-          "wins": 618
+          "games": 409,
+          "wins": 206
         },
         {
           "order": 16,
@@ -525,8 +525,8 @@
           "tier": "EMERALD",
           "division": 1,
           "lp": 35,
-          "games": 105,
-          "wins": 44
+          "games": 61,
+          "wins": 28
         },
         {
           "order": 15,
@@ -535,8 +535,8 @@
           "tier": "EMERALD",
           "division": 3,
           "lp": 82,
-          "games": 198,
-          "wins": 96
+          "games": 66,
+          "wins": 32
         },
         {
           "order": 16,
@@ -755,8 +755,8 @@
           "tier": "EMERALD",
           "division": 4,
           "lp": 19,
-          "games": 173,
-          "wins": 84
+          "games": 77,
+          "wins": 38
         },
         {
           "order": 15,
@@ -765,8 +765,8 @@
           "tier": "PLATINUM",
           "division": 2,
           "lp": 94,
-          "games": 210,
-          "wins": 96
+          "games": 70,
+          "wins": 32
         },
         {
           "order": 16,

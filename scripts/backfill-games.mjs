@@ -30,10 +30,10 @@ function accountToUrl(account, region) {
   return `https://op.gg/lol/summoners/${region}/${encodeURIComponent(name)}-${encodeURIComponent(tag)}`;
 }
 
-// Classic seasons carry a summary total (`"season_id":N,...,"play","win","lose"`). 2025+
-// seasons dropped that and only have per-champion rows, so we sum the summoner's own
-// aggregate — the *first* `my_champion_stats` array. (The page also holds a per-game list
-// with the same `play/win/lose` shape, which a naive whole-page sum would double-count.)
+// Classic seasons carry a summary total (`"season_id":N,...,"play","win","lose"`). From
+// 2024 Split 3 on, op.gg dropped that; instead `my_champion_stats` opens with an
+// "All champions" row (id 0) that is the season total, followed by the per-champion rows
+// (which sum to the same value — so summing the whole array double-counts). Use the id-0 row.
 // NOTE: an *invalid* season_id makes op.gg fall back to the current season's data, so only
 // real ids (the map below) are ever fetched.
 async function seasonGames(baseUrl, seasonId) {
@@ -43,15 +43,8 @@ async function seasonGames(baseUrl, seasonId) {
   const h = (await res.text()).replace(/\\"/g, '"');
   const agg = h.match(/"season_id":\d+,"year":[^,]*,"play":(\d+),"win":(\d+),"lose":(\d+)/);
   if (agg && Number(agg[1]) > 0) return { games: Number(agg[1]), wins: Number(agg[2]) };
-  for (const key of ['"my_champion_stats":[', '"champion_stats":[']) {
-    const s = h.indexOf(key);
-    if (s < 0) continue;
-    let i = s + key.length, depth = 1;
-    for (; i < h.length && depth > 0; i++) { if (h[i] === "[") depth++; else if (h[i] === "]") depth--; }
-    let games = 0, wins = 0;
-    for (const m of h.slice(s + key.length, i - 1).matchAll(/"play":(\d+),"win":(\d+),"lose":(\d+)/g)) { games += Number(m[1]); wins += Number(m[2]); }
-    if (games > 0) return { games, wins };
-  }
+  const all = h.match(/"my_champion_stats":\[\{[^}]*?"id":0,"play":(\d+),"win":(\d+),"lose":(\d+)/);
+  if (all && Number(all[1]) > 0) return { games: Number(all[1]), wins: Number(all[2]) };
   return null;
 }
 
