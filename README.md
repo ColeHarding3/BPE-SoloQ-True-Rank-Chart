@@ -1,4 +1,6 @@
-# Ranked Distribution 📈
+# BPE SoloQ Inflation-Adjusted Rank Graph 📈
+
+### ▶ [**View the live site**](https://coleharding3.github.io/BPE-SoloQ-True-Rank-Chart/)
 
 What was everyone's **peak** rank — and how do those peaks compare across eras, when a
 Diamond in 2017 was rarer than a Diamond today?
