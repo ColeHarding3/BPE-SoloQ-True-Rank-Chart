@@ -39,6 +39,10 @@
   "S13": {
    "games": 167,
    "wins": 88
+  },
+  "S15": {
+   "games": 24,
+   "wins": 3
   }
  },
  "TTV PHuffZone#NA1": {
@@ -83,8 +87,12 @@
    "wins": 302
   },
   "S14": {
-   "games": 188,
-   "wins": 91
+   "games": 368,
+   "wins": 166
+  },
+  "S15": {
+   "games": 456,
+   "wins": 243
   }
  },
  "HooksOut4Harambe#HOOK": {
@@ -97,8 +105,12 @@
    "wins": 182
   },
   "S14": {
-   "games": 420,
-   "wins": 215
+   "games": 999,
+   "wins": 491
+  },
+  "S15": {
+   "games": 1227,
+   "wins": 618
   }
  },
  "Baby Bird#chud": {
@@ -143,8 +155,12 @@
    "wins": 359
   },
   "S14": {
-   "games": 39,
-   "wins": 20
+   "games": 105,
+   "wins": 44
+  },
+  "S15": {
+   "games": 198,
+   "wins": 96
   }
  },
  "Osu Player#000": {
@@ -215,8 +231,12 @@
    "wins": 104
   },
   "S14": {
-   "games": 29,
-   "wins": 15
+   "games": 173,
+   "wins": 84
+  },
+  "S15": {
+   "games": 210,
+   "wins": 96
   }
  }
 }

@@ -30,13 +30,29 @@ function accountToUrl(account, region) {
   return `https://op.gg/lol/summoners/${region}/${encodeURIComponent(name)}-${encodeURIComponent(tag)}`;
 }
 
+// Classic seasons carry a summary total (`"season_id":N,...,"play","win","lose"`). 2025+
+// seasons dropped that and only have per-champion rows, so we sum the summoner's own
+// aggregate — the *first* `my_champion_stats` array. (The page also holds a per-game list
+// with the same `play/win/lose` shape, which a naive whole-page sum would double-count.)
+// NOTE: an *invalid* season_id makes op.gg fall back to the current season's data, so only
+// real ids (the map below) are ever fetched.
 async function seasonGames(baseUrl, seasonId) {
   const url = `${baseUrl}/champions?season_id=${seasonId}&queue_type=SOLORANKED`;
   const res = await fetch(url, { headers: { "User-Agent": UA, "Accept-Language": "en-US,en;q=0.9" } });
   if (!res.ok) return null;
   const h = (await res.text()).replace(/\\"/g, '"');
-  const m = h.match(/"season_id":(\d+),"year":[^,]*,"play":(\d+),"win":(\d+),"lose":(\d+)/);
-  return m && Number(m[2]) > 0 ? { games: Number(m[2]), wins: Number(m[3]), losses: Number(m[4]) } : null;
+  const agg = h.match(/"season_id":\d+,"year":[^,]*,"play":(\d+),"win":(\d+),"lose":(\d+)/);
+  if (agg && Number(agg[1]) > 0) return { games: Number(agg[1]), wins: Number(agg[2]) };
+  for (const key of ['"my_champion_stats":[', '"champion_stats":[']) {
+    const s = h.indexOf(key);
+    if (s < 0) continue;
+    let i = s + key.length, depth = 1;
+    for (; i < h.length && depth > 0; i++) { if (h[i] === "[") depth++; else if (h[i] === "]") depth--; }
+    let games = 0, wins = 0;
+    for (const m of h.slice(s + key.length, i - 1).matchAll(/"play":(\d+),"win":(\d+),"lose":(\d+)/g)) { games += Number(m[1]); wins += Number(m[2]); }
+    if (games > 0) return { games, wins };
+  }
+  return null;
 }
 
 const summoners = JSON.parse(await readFile(join(ROOT, "data/summoners.json"), "utf8"));
