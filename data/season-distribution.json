@@ -1,0 +1,1954 @@
+{
+ "_comment": "Division-level rank distribution. floor=cumulative top% at the bottom of each division. S8-S16 from community division-level tables; S4-S7 pixel-extracted from the season 1-15 image. Some tables sum to ~98-100% (source rounding/unranked), left as-is.",
+ "seasons": [
+  {
+   "label": "S4",
+   "order": 4,
+   "divisions": 5,
+   "total": 99.88,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.01
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.03
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.1
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.28
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 0.58
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 0.92
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 5,
+     "floor": 2.45
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 2.94
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 3.57
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 4.69
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 6.14
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 5,
+     "floor": 10.37
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 14.3
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 17.74
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 22.1
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 28.44
+    },
+    {
+     "tier": "GOLD",
+     "division": 5,
+     "floor": 34.09
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 38.65
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 46.91
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 56.62
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 65.9
+    },
+    {
+     "tier": "SILVER",
+     "division": 5,
+     "floor": 79.37
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 84.72
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 89.31
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 93.4
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 96.84
+    },
+    {
+     "tier": "BRONZE",
+     "division": 5,
+     "floor": 99.88
+    }
+   ]
+  },
+  {
+   "label": "S5",
+   "order": 5,
+   "divisions": 5,
+   "total": 99.86,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.01
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.03
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.13
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.33
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 0.77
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 1.71
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 5,
+     "floor": 2.65
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 3.18
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 4.37
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 5.99
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 7.94
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 5,
+     "floor": 12.53
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 15.4
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 17.94
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 21.84
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 26.6
+    },
+    {
+     "tier": "GOLD",
+     "division": 5,
+     "floor": 37.96
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 41.96
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 50.25
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 59.96
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 69.37
+    },
+    {
+     "tier": "SILVER",
+     "division": 5,
+     "floor": 81.72
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 85.45
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 89.68
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 93.58
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 96.92
+    },
+    {
+     "tier": "BRONZE",
+     "division": 5,
+     "floor": 99.86
+    }
+   ]
+  },
+  {
+   "label": "S6",
+   "order": 6,
+   "divisions": 5,
+   "total": 99.93,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.01
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.03
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.07
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.17
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 0.34
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 0.66
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 5,
+     "floor": 2.1
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 2.53
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 3.52
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 4.87
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 6.52
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 5,
+     "floor": 10.85
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 14.42
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 16.77
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 20.34
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 24.96
+    },
+    {
+     "tier": "GOLD",
+     "division": 5,
+     "floor": 36.85
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 47.39
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 55.32
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 63.77
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 70.21
+    },
+    {
+     "tier": "SILVER",
+     "division": 5,
+     "floor": 75.92
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 80.68
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 86.29
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 91.54
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 96.03
+    },
+    {
+     "tier": "BRONZE",
+     "division": 5,
+     "floor": 99.93
+    }
+   ]
+  },
+  {
+   "label": "S7",
+   "order": 7,
+   "divisions": 5,
+   "total": 99.93,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.015
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.056
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.108
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.206
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 0.389
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 0.745
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 5,
+     "floor": 2.185
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 2.655
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 3.745
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 5.175
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 6.855
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 5,
+     "floor": 10.735
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 14.305
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 16.685
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 20.415
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 25.135
+    },
+    {
+     "tier": "GOLD",
+     "division": 5,
+     "floor": 36.395
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 40.885
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 48.675
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 57.325
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 66.075
+    },
+    {
+     "tier": "SILVER",
+     "division": 5,
+     "floor": 77.635
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 82.455
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 87.575
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 92.295
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 96.355
+    },
+    {
+     "tier": "BRONZE",
+     "division": 5,
+     "floor": 99.925
+    }
+   ],
+   "source": "manual (top tiers) + pixel-extracted (Gold-Bronze)"
+  },
+  {
+   "label": "S8",
+   "order": 8,
+   "divisions": 5,
+   "total": 99.99,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.02
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.07
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.12
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.22
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 0.41
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 0.76
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 5,
+     "floor": 2.43
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 2.9
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 4.02
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 5.47
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 7.17
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 5,
+     "floor": 11.65
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 15.55
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 18.14
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 22.24
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 28.18
+    },
+    {
+     "tier": "GOLD",
+     "division": 5,
+     "floor": 43.12
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 48.15
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 56.8
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 67.14
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 77.63
+    },
+    {
+     "tier": "SILVER",
+     "division": 5,
+     "floor": 88.4
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 91.66
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 94.34
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 96.61
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 98.29
+    },
+    {
+     "tier": "BRONZE",
+     "division": 5,
+     "floor": 99.99
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S9",
+   "order": 9,
+   "divisions": 4,
+   "total": 98.11,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.01
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.04
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.11
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.3
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.67
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 1.44
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 3.74
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 5.54
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 7.44
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 10.54
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 19.24
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 23.44
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 30.14
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 37.84
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 51.84
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 58.94
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 67.34
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 74.04
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 82.74
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 88.44
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 92.14
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 94.44
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 96.34
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 97.23
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 97.8
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 98.06
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 98.11
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S10",
+   "order": 10,
+   "divisions": 4,
+   "total": 98.43,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.011
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.038
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.096
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.236
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.506
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 0.996
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 2.396
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 3.796
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 5.096
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 7.196
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 13.696
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 16.596
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 21.596
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 28.396
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 42.396
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 48.296
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 56.796
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 64.096
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 75.096
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 82.196
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 87.896
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 91.296
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 94.896
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 96.696
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 97.626
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 98.196
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 98.426
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S11",
+   "order": 11,
+   "divisions": 4,
+   "total": 98.27,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.01
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.035
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.165
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.405
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.635
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 0.945
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 1.655
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 3.555
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 5.055
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 7.255
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 13.555
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 16.855
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 22.055
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 28.355
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 42.355
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 49.555
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 58.655
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 67.055
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 78.055
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 83.955
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 89.455
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 93.255
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 96.455
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 97.375
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 97.885
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 98.135
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 98.265
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S12",
+   "order": 12,
+   "divisions": 4,
+   "total": 98.6,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.011
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.037
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.217
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.477
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 0.917
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 1.247
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 1.947
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 3.747
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 5.147
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 7.047
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 12.647
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 15.747
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 20.247
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 25.347
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 37.347
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 43.847
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 51.947
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 59.147
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 70.147
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 77.147
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 83.847
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 89.047
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 94.547
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 96.547
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 97.647
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 98.227
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 98.597
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S13",
+   "order": 13,
+   "divisions": 4,
+   "total": 98.68,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.019
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.063
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.553
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.993
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 1.533
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 2.103
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 3.303
+    },
+    {
+     "tier": "EMERALD",
+     "division": 1,
+     "floor": 4.703
+    },
+    {
+     "tier": "EMERALD",
+     "division": 2,
+     "floor": 6.403
+    },
+    {
+     "tier": "EMERALD",
+     "division": 3,
+     "floor": 9.303
+    },
+    {
+     "tier": "EMERALD",
+     "division": 4,
+     "floor": 15.503
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 17.503
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 20.603
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 24.603
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 31.603
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 34.203
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 38.203
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 43.203
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 51.203
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 54.003
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 58.103
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 63.103
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 70.603
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 73.903
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 78.503
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 83.803
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 91.203
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 94.503
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 97.103
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 98.203
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 98.683
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S14",
+   "order": 14,
+   "divisions": 4,
+   "total": 98.73,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.021
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.072
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.412
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.692
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 1.042
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 1.532
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 2.732
+    },
+    {
+     "tier": "EMERALD",
+     "division": 1,
+     "floor": 3.832
+    },
+    {
+     "tier": "EMERALD",
+     "division": 2,
+     "floor": 5.132
+    },
+    {
+     "tier": "EMERALD",
+     "division": 3,
+     "floor": 7.032
+    },
+    {
+     "tier": "EMERALD",
+     "division": 4,
+     "floor": 10.632
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 12.032
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 14.232
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 17.132
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 22.532
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 24.932
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 28.632
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 33.232
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 40.932
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 44.232
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 49.132
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 54.832
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 63.132
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 67.132
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 72.332
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 77.632
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 84.132
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 86.932
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 90.432
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 94.332
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 98.732
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S15",
+   "order": 15,
+   "divisions": 4,
+   "total": 99.98,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.017
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.06
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.47
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 0.84
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 1.61
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 1.96
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 2.88
+    },
+    {
+     "tier": "EMERALD",
+     "division": 1,
+     "floor": 5.08
+    },
+    {
+     "tier": "EMERALD",
+     "division": 2,
+     "floor": 6.48
+    },
+    {
+     "tier": "EMERALD",
+     "division": 3,
+     "floor": 8.48
+    },
+    {
+     "tier": "EMERALD",
+     "division": 4,
+     "floor": 12.68
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 14.38
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 16.98
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 20.38
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 26.68
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 29.38
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 33.68
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 39.08
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 48.08
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 51.78
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 56.88
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 62.38
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 69.38
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 72.78
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 76.98
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 81.18
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 86.28
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 88.98
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 92.48
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 96.08
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 99.98
+    }
+   ],
+   "source": "community table (division-level)"
+  },
+  {
+   "label": "S16",
+   "order": 16,
+   "divisions": 4,
+   "total": 100.06,
+   "tiers": [
+    {
+     "tier": "CHALLENGER",
+     "division": null,
+     "floor": 0.025
+    },
+    {
+     "tier": "GRANDMASTER",
+     "division": null,
+     "floor": 0.087
+    },
+    {
+     "tier": "MASTER",
+     "division": null,
+     "floor": 0.927
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 1,
+     "floor": 1.627
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 2,
+     "floor": 2.607
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 3,
+     "floor": 3.277
+    },
+    {
+     "tier": "DIAMOND",
+     "division": 4,
+     "floor": 4.877
+    },
+    {
+     "tier": "EMERALD",
+     "division": 1,
+     "floor": 7.477
+    },
+    {
+     "tier": "EMERALD",
+     "division": 2,
+     "floor": 9.477
+    },
+    {
+     "tier": "EMERALD",
+     "division": 3,
+     "floor": 12.177
+    },
+    {
+     "tier": "EMERALD",
+     "division": 4,
+     "floor": 17.177
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 1,
+     "floor": 19.777
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 2,
+     "floor": 23.577
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 3,
+     "floor": 28.177
+    },
+    {
+     "tier": "PLATINUM",
+     "division": 4,
+     "floor": 35.577
+    },
+    {
+     "tier": "GOLD",
+     "division": 1,
+     "floor": 39.477
+    },
+    {
+     "tier": "GOLD",
+     "division": 2,
+     "floor": 44.977
+    },
+    {
+     "tier": "GOLD",
+     "division": 3,
+     "floor": 51.077
+    },
+    {
+     "tier": "GOLD",
+     "division": 4,
+     "floor": 59.477
+    },
+    {
+     "tier": "SILVER",
+     "division": 1,
+     "floor": 63.977
+    },
+    {
+     "tier": "SILVER",
+     "division": 2,
+     "floor": 69.477
+    },
+    {
+     "tier": "SILVER",
+     "division": 3,
+     "floor": 74.977
+    },
+    {
+     "tier": "SILVER",
+     "division": 4,
+     "floor": 81.177
+    },
+    {
+     "tier": "BRONZE",
+     "division": 1,
+     "floor": 84.877
+    },
+    {
+     "tier": "BRONZE",
+     "division": 2,
+     "floor": 88.877
+    },
+    {
+     "tier": "BRONZE",
+     "division": 3,
+     "floor": 92.577
+    },
+    {
+     "tier": "BRONZE",
+     "division": 4,
+     "floor": 96.977
+    },
+    {
+     "tier": "IRON",
+     "division": 1,
+     "floor": 98.577
+    },
+    {
+     "tier": "IRON",
+     "division": 2,
+     "floor": 99.387
+    },
+    {
+     "tier": "IRON",
+     "division": 3,
+     "floor": 99.747
+    },
+    {
+     "tier": "IRON",
+     "division": 4,
+     "floor": 100.057
+    }
+   ],
+   "source": "community table (division-level)"
+  }
+ ]
+}

@@ -1,0 +1,785 @@
+{
+  "updatedAt": "2026-07-13T19:35:48.539Z",
+  "region": "na",
+  "source": "op.gg",
+  "players": [
+    {
+      "name": "Cole",
+      "color": "#ef4444",
+      "account": "Syndra God#NA1",
+      "opggUrl": "https://op.gg/lol/summoners/na/Syndra%20God-NA1",
+      "level": null,
+      "mainChampion": "Syndra",
+      "solo": {
+        "tier": "EMERALD",
+        "division": 2,
+        "lp": 37,
+        "wins": 19,
+        "losses": 22,
+        "percentile": 8.18
+      },
+      "flex": {
+        "tier": "DIAMOND",
+        "division": 3,
+        "lp": 97,
+        "wins": 41,
+        "losses": 35,
+        "percentile": null
+      },
+      "seasons": [
+        {
+          "order": 4,
+          "label": "S4",
+          "era": "classic",
+          "tier": "DIAMOND",
+          "division": 5,
+          "lp": null,
+          "games": 727,
+          "wins": 411
+        },
+        {
+          "order": 5,
+          "label": "S5",
+          "era": "classic",
+          "tier": "DIAMOND",
+          "division": 5,
+          "lp": 0,
+          "games": 356,
+          "wins": 183
+        },
+        {
+          "order": 6,
+          "label": "S6",
+          "era": "classic",
+          "tier": "DIAMOND",
+          "division": 5,
+          "lp": 89,
+          "games": 292,
+          "wins": 150
+        },
+        {
+          "order": 7,
+          "label": "S7",
+          "era": "classic",
+          "tier": "DIAMOND",
+          "division": 2,
+          "lp": 90,
+          "games": 485,
+          "wins": 268
+        },
+        {
+          "order": 8,
+          "label": "S8",
+          "era": "classic",
+          "tier": "DIAMOND",
+          "division": 5,
+          "lp": 36,
+          "games": 368,
+          "wins": 193
+        },
+        {
+          "order": 9,
+          "label": "S9",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 2,
+          "lp": 59,
+          "games": 140,
+          "wins": 73
+        },
+        {
+          "order": 10,
+          "label": "S10",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 3,
+          "lp": 27,
+          "games": 162,
+          "wins": 80
+        },
+        {
+          "order": 11,
+          "label": "S11",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 1,
+          "games": 232,
+          "wins": 112
+        },
+        {
+          "order": 12,
+          "label": "S12",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 2,
+          "lp": 2,
+          "games": 94,
+          "wins": 54
+        },
+        {
+          "order": 13,
+          "label": "S13",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 2,
+          "lp": 50,
+          "games": 167,
+          "wins": 88
+        },
+        {
+          "order": 14,
+          "label": "S14",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 19,
+          "games": null,
+          "wins": null
+        },
+        {
+          "order": 15,
+          "label": "S15",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 4,
+          "lp": 30,
+          "games": null,
+          "wins": null
+        },
+        {
+          "order": 16,
+          "label": "S16",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 2,
+          "lp": 37,
+          "games": 41,
+          "wins": 19
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Phuffzone",
+      "color": "#3b82f6",
+      "account": "TTV PHuffZone#NA1",
+      "opggUrl": "https://op.gg/lol/summoners/na/TTV%20PHuffZone-NA1",
+      "level": null,
+      "mainChampion": "Tryndamere",
+      "solo": {
+        "tier": "EMERALD",
+        "division": 2,
+        "lp": 23,
+        "wins": 52,
+        "losses": 67,
+        "percentile": 8.45
+      },
+      "flex": {
+        "tier": "EMERALD",
+        "division": 4,
+        "lp": 0,
+        "wins": 43,
+        "losses": 51,
+        "percentile": null
+      },
+      "seasons": [
+        {
+          "order": 4,
+          "label": "S4",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 4,
+          "lp": null,
+          "games": 831,
+          "wins": 436
+        },
+        {
+          "order": 5,
+          "label": "S5",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 2,
+          "lp": 51,
+          "games": 522,
+          "wins": 269
+        },
+        {
+          "order": 6,
+          "label": "S6",
+          "era": "classic",
+          "tier": "PLATINUM",
+          "division": 5,
+          "lp": 34,
+          "games": 196,
+          "wins": 97
+        },
+        {
+          "order": 7,
+          "label": "S7",
+          "era": "classic",
+          "tier": "PLATINUM",
+          "division": 3,
+          "lp": 0,
+          "games": 683,
+          "wins": 348
+        },
+        {
+          "order": 8,
+          "label": "S8",
+          "era": "classic",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 48,
+          "games": 176,
+          "wins": 88
+        },
+        {
+          "order": 9,
+          "label": "S9",
+          "era": "gm",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 100,
+          "games": 220,
+          "wins": 114
+        },
+        {
+          "order": 10,
+          "label": "S10",
+          "era": "gm",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 0,
+          "games": 808,
+          "wins": 399
+        },
+        {
+          "order": 11,
+          "label": "S11",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 18,
+          "games": 876,
+          "wins": 456
+        },
+        {
+          "order": 12,
+          "label": "S12",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 3,
+          "lp": 0,
+          "games": 798,
+          "wins": 400
+        },
+        {
+          "order": 13,
+          "label": "S13",
+          "era": "emerald",
+          "tier": "MASTER",
+          "division": null,
+          "lp": 1,
+          "games": 599,
+          "wins": 302
+        },
+        {
+          "order": 14,
+          "label": "S14",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 3,
+          "lp": 47,
+          "games": 188,
+          "wins": 91
+        },
+        {
+          "order": 15,
+          "label": "S15",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 41,
+          "games": null,
+          "wins": null
+        },
+        {
+          "order": 16,
+          "label": "S16",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 2,
+          "lp": 23,
+          "games": 119,
+          "wins": 52
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Patrick",
+      "color": "#22c55e",
+      "account": "HooksOut4Harambe#HOOK",
+      "opggUrl": "https://op.gg/lol/summoners/na/HooksOut4Harambe-HOOK",
+      "level": null,
+      "mainChampion": "Thresh",
+      "solo": {
+        "tier": "DIAMOND",
+        "division": 1,
+        "lp": 71,
+        "wins": 63,
+        "losses": 48,
+        "percentile": 1.27
+      },
+      "flex": {
+        "tier": "DIAMOND",
+        "division": 1,
+        "lp": 75,
+        "wins": 30,
+        "losses": 21,
+        "percentile": null
+      },
+      "seasons": [
+        {
+          "order": 12,
+          "label": "S12",
+          "era": "gm",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 49,
+          "games": 124,
+          "wins": 71
+        },
+        {
+          "order": 13,
+          "label": "S13",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 0,
+          "games": 351,
+          "wins": 182
+        },
+        {
+          "order": 14,
+          "label": "S14",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 3,
+          "lp": 4,
+          "games": 420,
+          "wins": 215
+        },
+        {
+          "order": 15,
+          "label": "S15",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 3,
+          "lp": 21,
+          "games": null,
+          "wins": null
+        },
+        {
+          "order": 16,
+          "label": "S16",
+          "era": "emerald",
+          "tier": "MASTER",
+          "division": null,
+          "lp": 20,
+          "games": 111,
+          "wins": 63
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Harrison",
+      "color": "#f59e0b",
+      "account": "Baby Bird#chud",
+      "opggUrl": "https://op.gg/lol/summoners/na/Baby%20Bird-chud",
+      "level": null,
+      "mainChampion": "Jhin",
+      "solo": {
+        "tier": "DIAMOND",
+        "division": 4,
+        "lp": 65,
+        "wins": 87,
+        "losses": 81,
+        "percentile": 3.55
+      },
+      "flex": {
+        "tier": "DIAMOND",
+        "division": 2,
+        "lp": 54,
+        "wins": 68,
+        "losses": 47,
+        "percentile": null
+      },
+      "seasons": [
+        {
+          "order": 4,
+          "label": "S4",
+          "era": "classic",
+          "tier": "SILVER",
+          "division": 4,
+          "lp": null,
+          "games": 90,
+          "wins": 40
+        },
+        {
+          "order": 5,
+          "label": "S5",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 5,
+          "lp": 7,
+          "games": 1013,
+          "wins": 527
+        },
+        {
+          "order": 6,
+          "label": "S6",
+          "era": "classic",
+          "tier": "PLATINUM",
+          "division": 5,
+          "lp": 0,
+          "games": 903,
+          "wins": 449
+        },
+        {
+          "order": 7,
+          "label": "S7",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 5,
+          "lp": 17,
+          "games": 519,
+          "wins": 255
+        },
+        {
+          "order": 8,
+          "label": "S8",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 4,
+          "lp": 34,
+          "games": 480,
+          "wins": 245
+        },
+        {
+          "order": 9,
+          "label": "S9",
+          "era": "gm",
+          "tier": "GOLD",
+          "division": 3,
+          "lp": 59,
+          "games": 18,
+          "wins": 9
+        },
+        {
+          "order": 10,
+          "label": "S10",
+          "era": "gm",
+          "tier": "GOLD",
+          "division": 4,
+          "lp": 0,
+          "games": 224,
+          "wins": 108
+        },
+        {
+          "order": 11,
+          "label": "S11",
+          "era": "gm",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 1,
+          "games": 801,
+          "wins": 413
+        },
+        {
+          "order": 12,
+          "label": "S12",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 0,
+          "games": 790,
+          "wins": 406
+        },
+        {
+          "order": 13,
+          "label": "S13",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 3,
+          "lp": 48,
+          "games": 718,
+          "wins": 359
+        },
+        {
+          "order": 14,
+          "label": "S14",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 1,
+          "lp": 35,
+          "games": 39,
+          "wins": 20
+        },
+        {
+          "order": 15,
+          "label": "S15",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 3,
+          "lp": 82,
+          "games": null,
+          "wins": null
+        },
+        {
+          "order": 16,
+          "label": "S16",
+          "era": "emerald",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 65,
+          "games": 168,
+          "wins": 87
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "Jesse",
+      "color": "#06b6d4",
+      "account": "Osu Player#000",
+      "opggUrl": "https://op.gg/lol/summoners/na/Osu%20Player-000",
+      "level": null,
+      "mainChampion": "Ezreal",
+      "solo": null,
+      "flex": null,
+      "seasons": [
+        {
+          "order": 4,
+          "label": "S4",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 5,
+          "lp": null,
+          "games": 217,
+          "wins": 121
+        },
+        {
+          "order": 5,
+          "label": "S5",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 1,
+          "lp": 0,
+          "games": 170,
+          "wins": 88
+        },
+        {
+          "order": 6,
+          "label": "S6",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 1,
+          "lp": 42,
+          "games": 106,
+          "wins": 55
+        },
+        {
+          "order": 7,
+          "label": "S7",
+          "era": "classic",
+          "tier": "GOLD",
+          "division": 2,
+          "lp": 60,
+          "games": 423,
+          "wins": 218
+        },
+        {
+          "order": 8,
+          "label": "S8",
+          "era": "classic",
+          "tier": "PLATINUM",
+          "division": 5,
+          "lp": 0,
+          "games": 114,
+          "wins": 56
+        },
+        {
+          "order": 9,
+          "label": "S9",
+          "era": "gm",
+          "tier": "DIAMOND",
+          "division": 4,
+          "lp": 0,
+          "games": 223,
+          "wins": 120
+        },
+        {
+          "order": 10,
+          "label": "S10",
+          "era": "gm",
+          "tier": "GOLD",
+          "division": 1,
+          "lp": 90,
+          "games": 27,
+          "wins": 11
+        },
+        {
+          "order": 11,
+          "label": "S11",
+          "era": "gm",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 18,
+          "games": 81,
+          "wins": 39
+        },
+        {
+          "order": 13,
+          "label": "S13",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 3,
+          "lp": 75,
+          "games": 108,
+          "wins": 58
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "CD",
+      "color": "#d946ef",
+      "account": "CD0000000000#NA1",
+      "opggUrl": "https://op.gg/lol/summoners/na/CD0000000000-NA1",
+      "level": null,
+      "mainChampion": "Zac",
+      "solo": {
+        "tier": "PLATINUM",
+        "division": 4,
+        "lp": 44,
+        "wins": 16,
+        "losses": 20,
+        "percentile": 27.63
+      },
+      "flex": {
+        "tier": "EMERALD",
+        "division": 3,
+        "lp": 62,
+        "wins": 71,
+        "losses": 67,
+        "percentile": null
+      },
+      "seasons": [
+        {
+          "order": 7,
+          "label": "S7",
+          "era": "classic",
+          "tier": "SILVER",
+          "division": 5,
+          "lp": 0,
+          "games": 42,
+          "wins": 14
+        },
+        {
+          "order": 8,
+          "label": "S8",
+          "era": "classic",
+          "tier": "SILVER",
+          "division": 5,
+          "lp": 35,
+          "games": 55,
+          "wins": 20
+        },
+        {
+          "order": 9,
+          "label": "S9",
+          "era": "gm",
+          "tier": "SILVER",
+          "division": 4,
+          "lp": 0,
+          "games": 67,
+          "wins": 29
+        },
+        {
+          "order": 10,
+          "label": "S10",
+          "era": "gm",
+          "tier": "GOLD",
+          "division": 4,
+          "lp": 0,
+          "games": 242,
+          "wins": 129
+        },
+        {
+          "order": 11,
+          "label": "S11",
+          "era": "gm",
+          "tier": "GOLD",
+          "division": 3,
+          "lp": 47,
+          "games": 443,
+          "wins": 232
+        },
+        {
+          "order": 12,
+          "label": "S12",
+          "era": "gm",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 18,
+          "games": 221,
+          "wins": 125
+        },
+        {
+          "order": 13,
+          "label": "S13",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 3,
+          "lp": 23,
+          "games": 216,
+          "wins": 104
+        },
+        {
+          "order": 14,
+          "label": "S14",
+          "era": "emerald",
+          "tier": "EMERALD",
+          "division": 4,
+          "lp": 19,
+          "games": 29,
+          "wins": 15
+        },
+        {
+          "order": 15,
+          "label": "S15",
+          "era": "emerald",
+          "tier": "PLATINUM",
+          "division": 2,
+          "lp": 94,
+          "games": null,
+          "wins": null
+        },
+        {
+          "order": 16,
+          "label": "S16",
+          "era": "emerald",
+          "tier": "PLATINUM",
+          "division": 4,
+          "lp": 44,
+          "games": 36,
+          "wins": 16
+        }
+      ],
+      "error": null
+    }
+  ]
+}

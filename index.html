@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BPE SoloQ True Rank Chart</title>
+    <meta name="description" content="Where do we actually land on the League of Legends solo-queue ladder?" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="titles">
+        <h1>BPE SoloQ True Rank Chart</h1>
+        <p class="subtitle">100% fact-based, statistically accurate, mathematically proven — verified by Claude Fable Max thinking mode.</p>
+      </div>
+      <div class="meta">
+        <span id="updated" class="updated">—</span>
+        <span class="source">data: op.gg</span>
+      </div>
+    </header>
+
+    <section class="controls" aria-label="Chart controls">
+      <div class="control-group" role="group" aria-label="Line style">
+        <button class="seg" data-curve="straight">Straight</button>
+        <button class="seg active" data-curve="smooth">Smooth</button>
+      </div>
+      <div class="control-group" role="group" aria-label="Peak marker">
+        <button class="seg active" data-peak="lines">Peak lines</button>
+        <button class="seg" data-peak="labels">Peak labels</button>
+      </div>
+      <div id="players" class="players" aria-label="Toggle players"></div>
+    </section>
+
+    <main class="layout">
+      <div class="chart-wrap">
+        <div id="chart"></div>
+        <div id="legend" class="legend" aria-label="Tier color key"></div>
+        <div id="tooltip" class="tooltip" hidden></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>Ringed dot = each player's all-time peak. Each column is that season's own division-level distribution; bar colors map to tiers (see key below). Hover a dot for that season's rank and what it's worth today.</span>
+      <a id="ogLink" href="./og.png" target="_blank" rel="noopener">view the original hand-drawn version →</a>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

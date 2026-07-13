@@ -1,0 +1,14 @@
+{
+  "name": "ranked-distribution",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scrape friends' League of Legends ranks from op.gg and plot them on the solo-queue rank-distribution curve. Static, interactive, GitHub Pages-hosted.",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

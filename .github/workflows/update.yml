@@ -1,0 +1,62 @@
+name: Scrape & Deploy
+
+# Refreshes ranks from op.gg and publishes the static site to GitHub Pages.
+# Scraping runs server-side here (no browser CORS limits), then the freshly
+# generated data/data.json ships inside the Pages artifact.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours (UTC)
+  push:
+    branches: [main]
+  workflow_dispatch: {} # manual "Run workflow" button
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deploys at once; let an in-progress one finish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Zero dependencies, so no `npm install` needed.
+      - name: Scrape op.gg
+        run: node scripts/scrape.mjs
+        # If op.gg blocks the runner or changes markup, keep deploying the last
+        # committed data.json instead of failing the whole pipeline.
+        continue-on-error: true
+
+      - name: Assemble static site
+        run: |
+          mkdir -p _site/data
+          cp index.html app.js styles.css _site/
+          cp data/data.json data/season-distribution.json _site/data/
+          cp -f ./*.png _site/ 2>/dev/null || true
+          if [ -d assets ]; then cp -r assets _site/; fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,14 @@
+{
+  "_comment": "Roster of friends. 'account' is 'GameName#TAG' exactly as on op.gg. 'region' is the default; add a per-player 'region' to override. Colors match the original og.png chart. Optional 'overrides' manually set a season's peak (op.gg doesn't record old-season LP) as { label, tier, division, lp }.",
+  "region": "na",
+  "players": [
+    { "name": "Cole",      "account": "Syndra God#NA1",          "color": "#ef4444",
+      "overrides": [ { "label": "S7", "tier": "DIAMOND", "division": 2, "lp": 90 } ] },
+    { "name": "Phuffzone", "account": "TTV PHuffZone#NA1",       "color": "#3b82f6" },
+    { "name": "Patrick",   "account": "HooksOut4Harambe#HOOK",   "color": "#22c55e",
+      "overrides": [ { "label": "S16", "tier": "MASTER", "lp": 20 } ] },
+    { "name": "Harrison",  "account": "Baby Bird#chud",          "color": "#f59e0b" },
+    { "name": "Jesse",     "account": "Osu Player#000",          "color": "#06b6d4" },
+    { "name": "CD",        "account": "CD0000000000#NA1",        "color": "#d946ef" }
+  ]
+}
