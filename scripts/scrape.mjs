@@ -122,6 +122,12 @@ function parseSummary(text) {
     `(${TIER_RE})\\s*(\\d)?\\s*\\d*\\s*(\\d+)\\s*LP\\s*/\\s*(\\d+)\\s*Win\\s*(\\d+)\\s*Lose`,
     "i"
   );
+  // Apex tiers have no division ("Master 206 LP"), so the optional-digit groups above would
+  // swallow the LP's leading digits; parse them separately.
+  const apex = text.match(/(Master|Grandmaster|Challenger)\s*(\d+)\s*LP\s*\/\s*(\d+)\s*Win\s*(\d+)\s*Lose/i);
+  if (apex)
+    return { tier: apex[1].toUpperCase(), division: null, lp: Number(apex[2]),
+      wins: Number(apex[3]), losses: Number(apex[4]), percentile: null };
   const m = text.match(re);
   if (!m) return null;
   return {

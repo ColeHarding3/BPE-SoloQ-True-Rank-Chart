@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T20:26:07.235Z",
+  "updatedAt": "2026-11-18T13:29:19.268Z",
   "region": "na",
   "source": "op.gg",
   "players": [
@@ -11,19 +11,19 @@
       "level": null,
       "mainChampion": "Syndra",
       "solo": {
-        "tier": "EMERALD",
-        "division": 2,
-        "lp": 37,
-        "wins": 19,
-        "losses": 22,
-        "percentile": 8.18
+        "tier": "DIAMOND",
+        "division": 1,
+        "lp": 3,
+        "wins": 60,
+        "losses": 41,
+        "percentile": 1.46
       },
       "flex": {
         "tier": "DIAMOND",
-        "division": 3,
-        "lp": 97,
-        "wins": 41,
-        "losses": 35,
+        "division": 1,
+        "lp": 43,
+        "wins": 60,
+        "losses": 41,
         "percentile": null
       },
       "seasons": [
@@ -151,11 +151,11 @@
           "order": 16,
           "label": "S16",
           "era": "emerald",
-          "tier": "EMERALD",
-          "division": 2,
-          "lp": 37,
-          "games": 41,
-          "wins": 19
+          "tier": "DIAMOND",
+          "division": 1,
+          "lp": 3,
+          "games": 101,
+          "wins": 60
         }
       ],
       "error": null
@@ -169,18 +169,18 @@
       "mainChampion": "Tryndamere",
       "solo": {
         "tier": "EMERALD",
-        "division": 2,
-        "lp": 23,
-        "wins": 52,
-        "losses": 67,
-        "percentile": 8.45
+        "division": 3,
+        "lp": 7,
+        "wins": 79,
+        "losses": 97,
+        "percentile": 11.7
       },
       "flex": {
         "tier": "EMERALD",
-        "division": 4,
-        "lp": 0,
-        "wins": 43,
-        "losses": 51,
+        "division": 3,
+        "lp": 17,
+        "wins": 79,
+        "losses": 97,
         "percentile": null
       },
       "seasons": [
@@ -309,10 +309,10 @@
           "label": "S16",
           "era": "emerald",
           "tier": "EMERALD",
-          "division": 2,
-          "lp": 23,
-          "games": 119,
-          "wins": 52
+          "division": 3,
+          "lp": 7,
+          "games": 176,
+          "wins": 79
         }
       ],
       "error": null
@@ -325,19 +325,19 @@
       "level": null,
       "mainChampion": "Thresh",
       "solo": {
-        "tier": "DIAMOND",
-        "division": 1,
-        "lp": 71,
-        "wins": 63,
-        "losses": 48,
-        "percentile": 1.27
+        "tier": "MASTER",
+        "division": null,
+        "lp": 206,
+        "wins": 139,
+        "losses": 121,
+        "percentile": 0.4871
       },
       "flex": {
-        "tier": "DIAMOND",
-        "division": 1,
-        "lp": 75,
-        "wins": 30,
-        "losses": 21,
+        "tier": "MASTER",
+        "division": null,
+        "lp": 9,
+        "wins": 38,
+        "losses": 28,
         "percentile": null
       },
       "seasons": [
@@ -387,9 +387,9 @@
           "era": "emerald",
           "tier": "MASTER",
           "division": null,
-          "lp": 20,
-          "games": 111,
-          "wins": 63
+          "lp": 206,
+          "games": 260,
+          "wins": 139
         }
       ],
       "error": null
@@ -400,21 +400,21 @@
       "account": "Baby Bird#chud",
       "opggUrl": "https://op.gg/lol/summoners/na/Baby%20Bird-chud",
       "level": null,
-      "mainChampion": "Jhin",
+      "mainChampion": "Ezreal",
       "solo": {
-        "tier": "DIAMOND",
-        "division": 4,
-        "lp": 65,
-        "wins": 87,
-        "losses": 81,
-        "percentile": 3.55
+        "tier": "EMERALD",
+        "division": 1,
+        "lp": 5,
+        "wins": 149,
+        "losses": 153,
+        "percentile": 7.6
       },
       "flex": {
-        "tier": "DIAMOND",
-        "division": 2,
-        "lp": 54,
-        "wins": 68,
-        "losses": 47,
+        "tier": "MASTER",
+        "division": null,
+        "lp": 3,
+        "wins": 93,
+        "losses": 68,
         "percentile": null
       },
       "seasons": [
@@ -542,11 +542,11 @@
           "order": 16,
           "label": "S16",
           "era": "emerald",
-          "tier": "DIAMOND",
-          "division": 4,
-          "lp": 65,
-          "games": 168,
-          "wins": 87
+          "tier": "EMERALD",
+          "division": 1,
+          "lp": 5,
+          "games": 302,
+          "wins": 149
         }
       ],
       "error": null
@@ -664,17 +664,17 @@
       "solo": {
         "tier": "PLATINUM",
         "division": 4,
-        "lp": 44,
-        "wins": 16,
-        "losses": 20,
-        "percentile": 27.64
+        "lp": 0,
+        "wins": 17,
+        "losses": 28,
+        "percentile": 34.02
       },
       "flex": {
         "tier": "EMERALD",
         "division": 3,
-        "lp": 62,
-        "wins": 71,
-        "losses": 67,
+        "lp": 94,
+        "wins": 108,
+        "losses": 102,
         "percentile": null
       },
       "seasons": [
@@ -774,9 +774,9 @@
           "era": "emerald",
           "tier": "PLATINUM",
           "division": 4,
-          "lp": 44,
-          "games": 36,
-          "wins": 16
+          "lp": 0,
+          "games": 45,
+          "wins": 17
         }
       ],
       "error": null

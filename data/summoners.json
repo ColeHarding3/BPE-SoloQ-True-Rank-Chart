@@ -5,8 +5,7 @@
     { "name": "Cole",      "account": "Syndra God#NA1",          "color": "#ef4444",
       "overrides": [ { "label": "S7", "tier": "DIAMOND", "division": 2, "lp": 90 } ] },
     { "name": "Phuffzone", "account": "TTV PHuffZone#NA1",       "color": "#3b82f6" },
-    { "name": "Patrick",   "account": "HooksOut4Harambe#HOOK",   "color": "#22c55e",
-      "overrides": [ { "label": "S16", "tier": "MASTER", "lp": 20 } ] },
+    { "name": "Patrick",   "account": "HooksOut4Harambe#HOOK",   "color": "#22c55e" },
     { "name": "Harrison",  "account": "Baby Bird#chud",          "color": "#f59e0b" },
     { "name": "Jesse",     "account": "Osu Player#000",          "color": "#06b6d4" },
     { "name": "CD",        "account": "CD0000000000#NA1",        "color": "#d946ef" }
